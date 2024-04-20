@@ -25,8 +25,7 @@
     solutions:
       beaker:
         maxVol: 50
-  - type: MixableSolution
-    solution: beaker
+        canMix: true
   - type: FitsInDispenser
     solution: beaker
   - type: RefillableSolution
@@ -118,8 +117,7 @@
     solutions:
       beaker:
         maxVol: 50
-  - type: MixableSolution
-    solution: beaker
+        canMix: true
   - type: FitsInDispenser
     solution: beaker
   - type: RefillableSolution
@@ -202,6 +200,7 @@
     solutions:
       beaker:
         maxVol: 100
+        canMix: true
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 6
@@ -245,6 +244,7 @@
     solutions:
       beaker:
         maxVol: 1000
+        canMix: true
 
 - type: entity
   name: dropper
